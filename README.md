@@ -1,4 +1,4 @@
-# Sprint 02: Challenge_one_logica: challenge-ahorcado👋!
+# Sprint 02: Challenge_one_logica: challenge-ahorcado👋☠️!
 
 
 
