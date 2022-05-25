@@ -42,6 +42,6 @@ Extras:
 
 # Technologias usadas para el desarrollo del proyecto 🧑🏾‍🚀🚀:
 
-![JavaScritp](https://img.shields.io/badge/-JavaScript-yellow)
-![HTML5](https://img.shields.io/badge/-HTML5-red)
-![CSS](https://img.shields.io/badge/CSS-green)
+![JavaScritp](https://img.shields.io/badge/-JavaScript-orange)
+![HTML5](https://img.shields.io/badge/-HTML5-yellow)
+![CSS](https://img.shields.io/badge/CSS-blue)
