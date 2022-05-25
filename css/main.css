@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto mono', monospace;
+    /*quitamos los estilos por defecto que trae css*/
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    /*quita decoracion*/
+    display: inline;
+    /*para poner en forma horizontal*/
+    color: black;
+}
+
+/* .home-body{
+    position: fixed;
+    Para dejar fija la page y ...>
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;/*Para no hacer scroll
+} */
+
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+
+}
+
+header {
+    width: 100%;
+    /*de derecha a izquierda en un 100%*/
+    height: 140px;
+    /*Altura*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /*dos filas */
+}
+
+header .header-icons-container {
+    width: 100%;
+    /*Igual de ancho que su padre*/
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    /*igual de grande como su padre como el contenedor sde la seccion*/
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+
+}
+
+header .icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+.nav-logo-container{
+    width: 20px;
+    padding: 30px 50px ;
+}
+
+.juego-link{
+    margin-top: 250px;
+    text-align: center;
+}
+
+.home-main {
+    height: 100%;
+    display: grid;
+    /* background-image: url('/assets/Cover.png');
+    background-position: center; */
+    /*Para que la imagen no se mueva y quede siempre en el centro*/
+    background-repeat: no-repeat;
+    /**/
+    background-size: cover;
+}
+
+.home-main-button-juego{
+  
+    font-family: 'Roboto mono', monospace;
+    font-size: 24px;
+    width: 317px;
+    height: 114px;
+    background: #47cfac;
+    align-items: center;
+    border-radius: 15px;
+    /* margin-left: 47%;  */
+}
+
+.home-main-button-adiciona{
+      margin-top: 50px;
+    font-family: 'Roboto mono', monospace;
+    font-size: 24px;
+    width: 317px;
+    height: 114px;
+    background: #47cfac;
+    align-items: center;
+    border-radius: 15px;
+    /* margin-left: 47%;  */
+}
+
+
+footer{
+    margin-top: 145px;
+    width: 100%;
+    height: 80px;
+    background-color: #22272d;
+    border-top: 35px solid  #47cfac;
+    text-align: center;
+
+}
+footer p{
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+
+   
+}
