@@ -6,24 +6,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     /*quita decoracion*/
     display: inline;
     /*para poner en forma horizontal*/
-    color: black;
+
 }
 
-/* .home-body{
+.home-body {
     position: fixed;
-    Para dejar fija la page y ...>
+    /*Para dejar fija la page y ...>*/
     top: 0;
     bottom: 0;
     left: 0;
-    right: 0;/*Para no hacer scroll
-} */
+    right: 0;
+    /*Para no hacer scroll*/
+}
 
-.grid-container{
+.grid-container {
     max-width: 980px;
     margin: auto;
 
@@ -32,10 +34,8 @@ a {
 header {
     width: 100%;
     /*de derecha a izquierda en un 100%*/
-    height: 140px;
+    height: 50px;
     /*Altura*/
-    display: grid;
-    grid-template-rows: 1fr 1fr;
     /*dos filas */
 }
 
@@ -67,67 +67,113 @@ header .icons span {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 90px;
-}
-.nav-logo-container{
-    width: 20px;
-    padding: 30px 50px ;
+    height: 30px;
 }
 
-.juego-link{
-    margin-top: 250px;
+.nav-logo-container {
+    margin: 0;
+    width: 20px;
+    padding: 30px 50px;
+}
+
+.juego-link {
+    margin-top: 200px;
     text-align: center;
 }
 
 .home-main {
+    margin-top: 0px;
     height: 100%;
     display: grid;
-    /* background-image: url('/assets/Cover.png');
-    background-position: center; */
+    background-image: url('/assets/Cover.png');
+    background-position: center;
     /*Para que la imagen no se mueva y quede siempre en el centro*/
     background-repeat: no-repeat;
-    /**/
-    background-size: cover;
+    background-size: 100%;
 }
 
-.home-main-button-juego{
+
+.home-main-button-juego {
+    margin-top: 150px;
+    font-family: 'Roboto mono', monospace;
+    font-size: 24px;
+    width: 317px;
+    height: 55px;
+    background: yellow;
+    align-items: center;
+    border-radius: 15px;
+    /* margin-left: 47%;  */
+}
+
+.home-main-button-juego:hover {
+    background: #0583eb;
+}
+
+
+.home-main-button-adiciona {
+    margin-top: 20px;
+    font-family: 'Roboto mono', monospace;
+    font-size: 24px;
+    width: 317px;
+    height: 55px;
+    background:yellow;
+    align-items: center;
+    border-radius: 15px;
+    /* margin-left: 47%;  */
+}
+
+.home-main-button-adiciona:hover {
+    background: #0583eb;
+}
+
+.juego-main {
+    background-image: url('/assets/ahorca.jpg');
+    height: 90%;
+    display: grid;
+    background-repeat: no-repeat;
+  }
+
+.juego-container-buttons {
+    align-items: center;
+    margin-left: 40%;
+}
+
+
+.juego-main-button-Nuevo {
+    margin-right: 30px;
+}
+
+.juego-main-button-Nuevo,
+.juego-main-button-desistir {
   
     font-family: 'Roboto mono', monospace;
-    font-size: 24px;
-    width: 317px;
-    height: 114px;
-    background: #47cfac;
-    align-items: center;
-    border-radius: 15px;
-    /* margin-left: 47%;  */
-}
-
-.home-main-button-adiciona{
-      margin-top: 50px;
-    font-family: 'Roboto mono', monospace;
-    font-size: 24px;
-    width: 317px;
-    height: 114px;
-    background: #47cfac;
-    align-items: center;
-    border-radius: 15px;
-    /* margin-left: 47%;  */
-}
-
-
-footer{
-    margin-top: 145px;
-    width: 100%;
+    font-size: 14px;
+    width: 200px;
     height: 80px;
+    background: #47cfac;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+
+footer {
+    position: fixed; /*para dejaro fijo al final*/
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
     background-color: #22272d;
-    border-top: 35px solid  #47cfac;
+    /* border-top: 100px solid  #22272d; */
     text-align: center;
 
 }
-footer p{
+
+footer p {
+    padding: 10px;
     color: white;
     font-size: 12px;
-    margin-top: 30px;
+    margin-top: 10px;
 
-   
+
 }
